@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Movie Library</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="logo-container">
+        <div class="logo">
+          <i class="icon fa fa-film"></i>
+          <span class="logo__title">Movie Library</span>
+        </div>
+      </div>
+      <form class="search-bar">
+        <input
+          type="text"
+          id="search"
+          class="search-field"
+          placeholder="Search here..."
+        />
+        <button class="search-bar__button">
+          <i class="icon fa fa-search"></i>
+        </button>
+      </form>
+      <div class="favourite-icons">
+        <i id="like-icon" class="icon fa fa-heart"></i>
+        <div class="likes-panel">
+          <ul class="likes">
+            <!-- <li class="like-item">
+              <img src="https://maltesemode.online/wp-content/uploads/LION-3.jpg" alt="like-image">
+              <div class="like-info">
+                <span class="like-title">Jurassic Fug</span>
+                <span class="like-year">2018</span>
+              </div>
+            </li>
+            <li class="like-item">
+              <img src="https://maltesemode.online/wp-content/uploads/LION-3.jpg" alt="like-image">
+              <div class="like-info">
+                <span class="like-title">Jurassic</span>
+                <span class="like-year">2018</span>
+              </div>
+            </li>
+            <li class="like-item">
+              <img src="https://maltesemode.online/wp-content/uploads/LION-3.jpg" alt="like-image">
+              <div class="like-info">
+                <span class="like-title">Jurassic</span>
+                <span class="like-year">2018</span>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="results">
+      <div class="title-container">
+        <!-- <h1 class="result-title">Search results for: Jurassic Park</h1> -->
+      </div>
+      <div class="movie-display">
+        <!-- <div class="display-poster"><img src="https://m.media-amazon.com/images/M/MV5BYWViMGIzMzktNDhjYS00ZjVhLWFjOWQtMjVlMmRhZjI5ZDlkXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg" alt="movie-poster"></div>
+        <div class="display-information">
+          <h1 class="movie-title">Jurassic Park</h1>
+          <div class="movie-details">
+            <ul class="details">
+              <li><i class="icon fa fa-calendar"></i>11 Jun 1993</li>
+              <li><i class="icon fa fa-film"></i>Steven Speilberg</li>
+              <li><i class="icon fa fa-clock-o"></i>127 Min</li>
+              <li><i class="icon fa fa-star"></i>8.1/10</li>
+            </ul>
+          </div>
+          <p class="plot">Huge advancements in scientific technology have enabled a mogul to create an island full of living dinosaurs. John Hammond has invited four individuals, along with his two grandchildren, to join him at Jurassic Park. But will everything go according to plan? A park employee attempts to steal dinosaur embryos, critical security systems are shut down and it now becomes a race for survival with dinosaurs roaming freely over the island.
+          </p>
+          <div class="button-details">
+            <button class="imdb-button">IMDB 8.1</button>
+            <div class="liked-buttons">
+              <button><i class="fa fa-check"></i></button>
+              <button><i class="fa fa-eye"></i></button>
+            </div>
+          </div>
+          <button class="button back-button">Back</button>
+        </div> -->
+      </div> 
+      <div class="movie-container">
+        <!-- <div class="movie">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UX182_CR0,0,182,268_AL_.jpg"
+            alt="movie-poster"
+          />
+          <div class="movie-details">
+            <h1 class="movie-title">Thor Ragnorak</h1>
+          </div>
+        </div>
+        <div class="movie">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UX182_CR0,0,182,268_AL_.jpg"
+            alt="movie-poster"
+          />
+          <div class="movie-details">
+            <h1 class="movie-title">Thor Ragnorak</h1>
+          </div>
+        </div>
+        <div class="movie">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UX182_CR0,0,182,268_AL_.jpg"
+            alt="movie-poster"
+          />
+          <div class="movie-details">
+            <h1 class="movie-title">Thor Ragnorak</h1>
+          </div>
+        </div>
+        <div class="movie">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UX182_CR0,0,182,268_AL_.jpg"
+            alt="movie-poster"
+          />
+          <div class="movie-details">
+            <h1 class="movie-title">Thor Ragnorak</h1>
+          </div>
+        </div>
+        <div class="movie">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UX182_CR0,0,182,268_AL_.jpg"
+            alt="movie-poster"
+          />
+          <div class="movie-details">
+            <h1 class="movie-title">Thor Ragnorak</h1>
+          </div>
+        </div>
+        <div class="movie">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UX182_CR0,0,182,268_AL_.jpg"
+            alt="movie-poster"
+          />
+          <div class="movie-details">
+            <h1 class="movie-title">Thor Ragnorak</h1>
+          </div>
+        </div>
+        <div class="movie">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UX182_CR0,0,182,268_AL_.jpg"
+            alt="movie-poster"
+          />
+          <div class="movie-details">
+            <h1 class="movie-title">Thor Ragnorak</h1>
+          </div>
+        </div>
+        <div class="movie">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UX182_CR0,0,182,268_AL_.jpg"
+            alt="movie-poster"
+          />
+          <div class="movie-details">
+            <h1 class="movie-title">Thor Ragnorak</h1>
+          </div>
+        </div>
+        <!-- <div class="movie">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UX182_CR0,0,182,268_AL_.jpg"
+            alt="movie-poster"
+          />
+          <div class="movie-details">
+            <h1 class="movie-title">Thor Ragnorak</h1>
+          </div> -->
+        </div> 
+      </div>
+      <div class="buttons">
+        <!-- <button class="button button-pagination go-previous" data-page="1">
+          <i class="fa fa-backward"></i> Page 1
+        </button>
+        <button class="button button-pagination go-next" data-page="1">
+          <i class="fa fa-forward"></i> Page 3
+        </button> -->
+      </div>
+    </section>
+  </body>
+</html>

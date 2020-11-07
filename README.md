@@ -3,6 +3,8 @@
 
 #### This is a small movie library app that uses the [OMDb API](http://www.omdbapi.com/)
 
+This project was built with HTML, CSS and Vanilla JS, it also uses Webpack and Babel.
+
 To run this on your machine, clone the repository and run the following commands: 
 
 **to run in development mode**
